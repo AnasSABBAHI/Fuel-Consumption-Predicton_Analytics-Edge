@@ -38,7 +38,7 @@ This project uses standard Python data science libraries. A `requirements.txt` f
 ##  How to Run the Project
 1.  **Clone the Repository:**
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/AnasSABBAHI/Fuel-Consumption-Predicton_Analytics-Edge>
     cd fuel-consumption-prediction
     ```
 
@@ -65,4 +65,5 @@ This project uses standard Python data science libraries. A `requirements.txt` f
 - If test data is provided, the notebook will generate a `predictions.csv` file with the model's predictions.
 
 ## 📊 Interpretation of Results
+
 The final model, a Gradient Boosting Regressor, is trained on the full dataset to make predictions. Initial analysis shows that **Duree_mn** (duration) and **Distance_km** have the strongest positive correlation with fuel consumption, which is expected. Features like **Puissance** (power) also show a moderate positive correlation, while **Largeur** (tool width) has a strong negative correlation, suggesting wider tools may lead to more efficient, less fuel-intensive operations per unit of area. The model's performance should be judged by the MAE on an independent test set.
